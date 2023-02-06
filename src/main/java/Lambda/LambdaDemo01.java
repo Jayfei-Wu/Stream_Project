@@ -41,6 +41,7 @@ public class LambdaDemo01 {
         });
         System.out.println(j);
 
+        int k = calculateNum(((left, right) -> left+right));
 
         printNum(new IntPredicate() {
             @Override
